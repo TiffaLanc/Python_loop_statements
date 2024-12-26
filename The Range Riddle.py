@@ -5,11 +5,10 @@
 
 import random
 
-day_of_the_week = ['Monday', 'Tuseday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+day_of_the_week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 mood = ['happy', 'sad', 'hopeful', 'excited', 'alert', 'enthusiastic', 'concerned']
-daily_mood = random.choice(mood)
-what_day = random.choice(day_of_the_week)
 
-for day_of_the_week in day_of_the_week : range(8)
-for mood in mood : range(8)
-print('On ' +what_day,' I felt ' + str(daily_mood))
+
+for i in range(len(day_of_the_week)): 
+    for i in (mood):
+       print(f'On {random.choice(day_of_the_week)} I felt {random.choice(mood)}.')

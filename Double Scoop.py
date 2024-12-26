@@ -5,19 +5,12 @@
 
 import random
 week_day = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
-time_of_day = ['morning', 'afternoon', 'evening']
+time_of_day = ['at twilight', 'at midnight' , 'at the witching hour']
 mood = ['happy', 'foggy', 'sappy', 'groggy', 'sassy', 'classy' ]
 
-daily_mood = random.choice(mood)
-what_time = random.choice(time_of_day)
-wk_day = random.choice(week_day)
-
-
-for i in range(5):week_day
-for i in range(3): time_of_day
-print("On " +wk_day , what_time + " I felt " + daily_mood ) 
-
-#I haven't quite figured out the nested loop
+for i in week_day:
+    for x in time_of_day:
+        print(f"On {i} {x}, you were {random.choice(mood)}.")
 
 
     
